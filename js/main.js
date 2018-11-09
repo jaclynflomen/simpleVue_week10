@@ -10,12 +10,19 @@
 
             targetURL : "http://google.ca",
 
+            vuemessage : "Yay! You can haz vue",
+
+            anchorOff : true,
+
             deliciousFruit : [
                 { name: "apple", flavour: "tasty"},
                 { name: "orange", flavour: "sweet"},
                 { name: "grape", flavour: "juicy"}
-            ]
+            ],
+
+            hazVue : true
         },
+
 
         methods : {
             logFruit(e){
